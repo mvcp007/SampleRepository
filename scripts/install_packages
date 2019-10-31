@@ -1,0 +1,4 @@
+#!/bin/bash
+apt-get install -y apache2
+apt-get install -y php-{bcmath,bz2,intl,gd,mbstring,zip,fpm} 
+apt-get install libapache2-mod-php* -y

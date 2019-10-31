@@ -1,0 +1,5 @@
+#!/bin/bash
+IsApache2ServiceRunning = `pgrep apache2`
+if [[ -n  $IsApache2ServiceRunning ]]; then
+    sudo systemctl stop apache2      
+fi
